@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<set>
+	<customers>
+		<customer usable="true">
+			<sendEmailSets>
+				<sendEmailSet>
+					<smtpHost>smtp.qiye.163.com</smtpHost>
+					<smtpPort>25</smtpPort>
+					<emailAccount>it-system-help@hkolens.com</emailAccount>
+					<emailPassword>system1805@</emailPassword>
+					<emailRecipients>lukezheng@hkolens.com;</emailRecipients>
+					<ccRecipients></ccRecipients>
+					<lastEmailTime>2020-07-23 12:00:00</lastEmailTime>
+					<sendEmailCount>1</sendEmailCount>
+				</sendEmailSet>
+			</sendEmailSets>
+			<databaseSet>
+				<dataSource>192.168.80.29</dataSource>
+				<database>order</database>
+				<user>sa</user>
+				<pwd></pwd>
+			</databaseSet>
+		</customer>
+	</customers>
+</set>
